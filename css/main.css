@@ -50,13 +50,15 @@ p, li, textarea, label, input, select {
   height: 471px;
   object-fit: contain;
 }
-h4 {
-  /* Default font, size, and margins */
+
+.sub-title { 
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #231f20;
 }
 
-h5 {
-  /* Default font, size, and margins */
-}
 
 h6 {
   /* Default font, size, and margins */
@@ -81,11 +83,23 @@ a:hover {
 .box {
   display: flex;
 }
-.texte1{
+.photo {
+  min-width: 50%;
+}
+
+.texte{
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
   max-width: 50%;
   font-size: 16px;
   text-align: justify;
-}  
+}
+.titre-texte {
+  margin-top: 0;
+}
+ 
 
 /**
 * ----------
