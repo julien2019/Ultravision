@@ -85,7 +85,9 @@ a:hover {
 }
 .photo {
   min-width: 50%;
+  border: 171px solid black;
 }
+
 
 .texte{
   padding-top: 0;
