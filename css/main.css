@@ -32,6 +32,7 @@ p, li, textarea, label, input, select {
 
   font-family: Poppins;
   margin-top: 4px;
+  margin-bottom: 6px;
   font-size: 38px;
   font-weight: 900;
   text-align: center;
@@ -39,11 +40,16 @@ p, li, textarea, label, input, select {
   background-color: #ff6b00;
 }
 
-.deco-purple {
+.deco-rouge {
+  margin-bottom: 3px;
   height: 16px;
   background-color: #e02020;
 }
-
+.deco-violet {
+  margin-bottom: 3px;
+  height: 16px;
+  background-color:#b620e0;
+}
 .sub-title {
   font-family: Poppins;
   font-size: 40px;
