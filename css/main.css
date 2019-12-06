@@ -20,6 +20,7 @@ p, li, textarea, label, input, select {
 .title {
 
   font-family: "Poppins";
+  margin-bottom: 2px;
   font-size: 88px;
   font-weight: 900;
   text-align: center;
@@ -30,11 +31,17 @@ p, li, textarea, label, input, select {
 .section-title {
 
   font-family: Poppins;
+  margin-top: 4px;
   font-size: 38px;
   font-weight: 900;
   text-align: center;
   color: #ffffff;
   background-color: #ff6b00;
+}
+
+.deco-purple {
+  height: 16px;
+  background-color: #e02020;
 }
 
 .sub-title {
@@ -85,7 +92,7 @@ a:hover {
 }
 .photo {
   min-width: 50%;
-  border: 171px solid black;
+  border: 171px solid orangered;
 }
 
 
