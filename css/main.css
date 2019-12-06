@@ -18,7 +18,13 @@ p, li, textarea, label, input, select {
 
 
 h1 {
-   /* Default font, size, and margins */
+
+  font-family: "Poppins";
+  font-size: 88px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  background-color: #fcce00;
 }
 
 h2 {
