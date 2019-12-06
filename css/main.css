@@ -45,7 +45,11 @@ p, li, textarea, label, input, select {
   color: #231f20;
   /* Default font, size, and margins */
 }
-
+.bitmap.png {
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+}
 h4 {
   /* Default font, size, and margins */
 }
@@ -74,7 +78,9 @@ a:hover {
 * ------
 */
 
-
+.box {
+  display: flex;
+}
 
 
 /**
