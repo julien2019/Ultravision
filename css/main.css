@@ -87,7 +87,7 @@ p, li, textarea, label, input, select {
   color: #ffffff;
   background-color:#231f20
 }
-.sub-title7 {font-family: Poppins;
+.sub-title6 {font-family: Poppins;
   font-size: 40px;
   font-weight: 900;
   text-align: center;
@@ -205,7 +205,32 @@ a:hover {
   border-radius: 15px;
   border: solid 4px var(--sunflower-yellow);
 }
+.button0 {
+  float: right;
+  border-radius: 15px;
+  border: solid;
+  color: #ff6b00;
+}
+.button1 {
+  float: right;
+  border-radius: 15px;
+  border: solid;
+  color: #ff6b00;
+}
 
+.button2 {
+  float: right;
+  border-radius: 15px;
+  border: solid;
+  color:#b620e0;
+}
+
+.button3 {
+  float: right;
+  border-radius: 15px;
+  border: solid;
+  color:#6236ff;
+}
 .texte{
   padding-top: 0;
   padding-right: 32px;
