@@ -4,7 +4,10 @@
 * Global Styles
 * -------------
 */
-
+.page {
+  max-width: 1024px;
+  margin: auto;
+}
 body {
   /* Default font family and font color */
   font-family: 'Poppins', sans-serif;
@@ -76,11 +79,13 @@ p, li, textarea, label, input, select {
   color: #231f20;
 }
 
-.sub-title6 {font-family: Poppins;
+.sub-title6 {
+  font-family: Poppins;
   font-size: 40px;
   font-weight: 900;
   text-align: center;
   color: #ffffff;
+  background-color:#231f20
 }
 .sub-title7 {font-family: Poppins;
   font-size: 40px;
@@ -129,9 +134,29 @@ a:hover {
 .box {
   display: flex;
 }
-
 .box1 {
   display:flex;
+  background-color: #e02020
+}
+.box2 {
+  display:flex;
+  background-color: #b620e0;
+}
+.img,.text {
+  flex-basis:0;
+  flex-grow: 1;
+}
+
+.box3 {
+  display:flex;
+  background-color: #6236ff
+}
+
+.box4{background-color: #231f20;
+  mix-blend-mode:darken;
+}
+.box5{background-color: #231f20;
+  mix-blend-mode:darken;
 }
 .photo {
   min-width: 50%;
@@ -174,12 +199,7 @@ a:hover {
 .computer img{background-color: #6236ff;
   mix-blend-mode:darken;
 }
-.box4{background-color: #231f20;
-  mix-blend-mode:darken;
-}
-.box5{background-color: #231f20;
-  mix-blend-mode:darken;
-}
+
 .button {
   float: right;
   border-radius: 15px;
@@ -191,10 +211,15 @@ a:hover {
   padding-right: 32px;
   padding-bottom: 32px;
   padding-left: 32px;
-  max-width: 50%;
   font-size: 16px;
   text-align: justify;
 }
+
+.texte, .product1 {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
 .titre-texte {
   margin-top: 0;
   text-align:center
