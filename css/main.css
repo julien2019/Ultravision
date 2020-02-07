@@ -119,8 +119,30 @@ a:hover {
   background-color: #ff6b00;
   mix-blend-mode:darken;
 }
+.product2 img {
+  background-color: #ff6b00;
+  mix-blend-mode:darken;
+}
 .arcadescreen{
   background-color: #e02020;
+  mix-blend-mode:darken;
+}
+.arcadescreen img {
+  background-color: #ff6b00;
+  mix-blend-mode:darken;
+}
+.colortv {background-color: #b620e0;
+  mix-blend-mode:darken;
+}
+
+.colortv img {background-color: #b620e0;
+  mix-blend-mode:darken;
+}
+.computer{background-color: #6236ff;
+  mix-blend-mode:darken;
+}
+
+.computer img{background-color: #6236ff;
   mix-blend-mode:darken;
 }
 .button {
