@@ -103,13 +103,26 @@ a:hover {
 .photo {
   min-width: 50%;
   background-color: #ff6b00;
+  mix-blend-mode: darken;
+  transform:
 }
 
-.photo-jaune {
-  background-color: yellow;
-
+.product1 {
+  background-color: #fcce00;
 }
 
+.product1 img {
+  mix-blend-mode:darken;
+
+}
+.product2 {
+  background-color: #ff6b00;
+  mix-blend-mode:darken;
+}
+.arcadescreen{
+  background-color: #e02020;
+  mix-blend-mode:darken;
+}
 .button {
   float: right;
   border-radius: 15px;
