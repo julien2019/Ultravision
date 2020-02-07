@@ -102,11 +102,16 @@ a:hover {
 }
 .photo {
   min-width: 50%;
-  border: 171px solid orangered;
+  background-color: #ff6b00;
+}
+
+.photo-jaune {
+  background-color: yellow;
+
 }
 
 .button {
-
+  display: inline-block;
   border-radius: 15px;
   border: solid 4px var(--sunflower-yellow);
 }
