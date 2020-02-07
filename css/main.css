@@ -8,13 +8,12 @@
 body {
   /* Default font family and font color */
   font-family: 'Poppins', sans-serif;
-
+  --sunflower-yellow: yellow;
 }
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
-
 
 
 .title {
@@ -106,6 +105,11 @@ a:hover {
   border: 171px solid orangered;
 }
 
+.button {
+
+  border-radius: 15px;
+  border: solid 4px var(--sunflower-yellow);
+}
 
 .texte{
   padding-top: 0;
