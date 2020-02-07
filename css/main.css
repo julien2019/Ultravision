@@ -111,7 +111,7 @@ a:hover {
 }
 
 .button {
-  display: inline-block;
+  float: right;
   border-radius: 15px;
   border: solid 4px var(--sunflower-yellow);
 }
